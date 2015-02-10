@@ -1,0 +1,145 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="BuilderSite.SiteMaster" %>
+
+<!DOCTYPE html>
+<html lang="en">
+<head id="Head1" runat="server">
+		<title>Kamil The Builder</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<link href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900' rel='stylesheet' type='text/css'>
+		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-panels.min.js"></script>
+		<script src="js/init.js"></script>
+		<%--<noscript>--%>
+			<link rel="stylesheet" href="css/skel-noscript.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-desktop.css" />
+		<%--</noscript>--%>
+	</head>
+	<body class="homepage">
+    <form id="Form1" runat="server">
+    <asp:ScriptManager ID="ScriptManager1" runat="server">
+        <Scripts>
+            <%--To learn more about bundling scripts in ScriptManager see http://go.microsoft.com/fwlink/?LinkID=272931&clcid=0x409 --%>
+            <%--Framework Scripts--%>
+            
+            <asp:ScriptReference Name="MsAjaxBundle" />
+            <asp:ScriptReference Name="jquery" />
+            <asp:ScriptReference Name="jquery.ui.combined" />
+            <asp:ScriptReference Name="WebForms.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebForms.js" />
+            <asp:ScriptReference Name="WebUIValidation.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebUIValidation.js" />
+            <asp:ScriptReference Name="MenuStandards.js" Assembly="System.Web" Path="~/Scripts/WebForms/MenuStandards.js" />
+            <asp:ScriptReference Name="GridView.js" Assembly="System.Web" Path="~/Scripts/WebForms/GridView.js" />
+            <asp:ScriptReference Name="DetailsView.js" Assembly="System.Web" Path="~/Scripts/WebForms/DetailsView.js" />
+            <asp:ScriptReference Name="TreeView.js" Assembly="System.Web" Path="~/Scripts/WebForms/TreeView.js" />
+            <asp:ScriptReference Name="WebParts.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebParts.js" />
+            <asp:ScriptReference Name="Focus.js" Assembly="System.Web" Path="~/Scripts/WebForms/Focus.js" />
+            <asp:ScriptReference Name="WebFormsBundle" />
+            <%--Site Scripts--%>
+
+        </Scripts>
+    </asp:ScriptManager>
+	<div id="header-wrapper">
+
+		<!-- Header -->
+			<div id="header">
+				<div class="container">
+						
+					<!-- Logo -->
+						<div id="logo">
+							<h1><a href="#">Company Name</a></h1>
+						</div>
+					
+					<!-- Nav -->
+						<nav id="nav">
+							<ul>
+								<li class="active"><a href="index.html">Homepage</a></li>
+								<li><a href="Default.aspx">Services</a></li>
+								<li><a href="Default.aspx">My Work</a></li>
+                                <li><a href="Default.aspx">Testimonials</a></li>
+								<li><a href="Default.aspx">Contact</a></li>
+							</ul>
+						</nav>
+	
+				</div>
+			</div>
+		<!-- Header -->
+
+		<!-- Banner -->
+			<div id="banner" style="border-style: solid; border-width: medium; border-color: #FF0000 #FFFFFF #FFFFFF #FFFFFF;">
+				<div class="container">
+	
+					<section>
+						<span class="fa fa-cubes"></span>
+						<header>
+							<h2 style="color: #FF0000">Hi, I’m Kamil...</h2>
+							<span class="byline" style="color: #FF0000">Your local builder and joiner...</span>
+                            <h4 style="color: #000000">I provide professional building services throughout the Wrexham and Chester area.</h4>
+						</header>
+						<a href="#" class="button medium">Free Quotation</a>
+					</section>	
+				</div>
+			</div>
+		<!-- /Banner -->
+
+	</div>
+
+	<!-- Extra -->
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+		<div id="footer">
+			<div class="container">
+				<div class="row">
+					<section class="4u">
+						<header>
+							<h2>Contact details</h2>
+						</header>
+						<ul class="default">
+							<li><a href="#">Pellentesque quis elit non gravida blandit.</a></li>
+							<li><a href="#">Lorem ipsum dolor sit consectetuer adipiscing elit.</a></li>
+							<li><a href="#">Phasellus nec erat sit nibh pellentesque congue.</a></li>
+							<li><a href="#">Cras vitae metus aliquam pellentesque pharetra.</a></li>
+							<li><a href="#">Duis non ante in metus commodo euismod lobortis.</a></li>
+						</ul>
+					</section>
+					<section class="4u">
+						<header>
+							<h2>Our services include</h2>
+						</header>
+						<ul class="default">
+							<li><a href="#">Wall and Floor Ceramic Tiling.</a></li>
+							<li><a href="#">Laminated and Solid wood flooring.</a></li>
+							<li><a href="#">Property maintenance and repairs.</a></li>
+							<li><a href="#">New doors and Windows.</a></li>
+							<li><a href="#">Upvc doors and windows.</a></li>
+						</ul>
+					</section>
+					<section class="4u">
+						<header>
+							<h2>Site map</h2>
+						</header>
+						<ul class="default">
+							<li><a href="#">Home</a></li>
+							<li><a href="#">Services.</a></li>
+							<li><a href="#">My Work.</a></li>
+							<li><a href="#">Testimonials.</a></li>
+							<li><a href="#">Contact.</a></li>
+						</ul>
+					</section>
+				</div>
+			</div>
+		</div>
+	<!-- /Footer -->
+
+	<!-- Copyright -->
+		<div id="copyright">
+			<div class="container">
+				 <p>&copy; <%: DateTime.Now.Year %> - All Rights Reserved <a href="http://mywebsite-18.apphb.com">VirgoSoft</a><p>Design By:<a href="http://mywebsite-18.apphb.com">Dilan Jayawardene</a></p>
+			</div>
+		</div>
+
+    </form> 
+	</body>
+</html>
