@@ -35,7 +35,7 @@
 						<p>In posuere eleifend odio quisque semper augue mattis wisi maecenas ligula augue praesent.</p>
 					</section>
 				</div>
-				<a href="#" class="button medium">My Work</a>
+				<a href="#" class="button medium">explore My Work</a>
 			</div>
 		</div>
 
