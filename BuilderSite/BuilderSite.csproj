@@ -238,7 +238,6 @@
     <Content Include="css\font\fontawesome-webfont.ttf" />
     <Content Include="css\font\fontawesome-webfont.woff" />
     <Content Include="css\font\FontAwesome.otf" />
-    <Content Include="Images\Thumbs.db" />
     <None Include="Scripts\jquery-1.8.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.8.2.js" />
     <Content Include="Scripts\jquery-1.8.2.min.js" />
