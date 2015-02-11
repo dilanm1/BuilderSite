@@ -16,7 +16,7 @@
 		<%--<noscript>--%>
 			<link rel="stylesheet" href="css/skel-noscript.css" />
 			<link rel="stylesheet" href="css/style.css" />
-			<link rel="stylesheet" href="css/style-desktop.css" />
+			<link rel="stylesheet" href="css/style-1000px"/>
 		<%--</noscript>--%>
 	</head>
 	<body class="homepage">

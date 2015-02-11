@@ -2,7 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <link rel="stylesheet" href="css/skel-noscript.css" />
 			<link rel="stylesheet" href="css/style.css" />
-			<link rel="stylesheet" href="css/style-desktop.css" />
+			<link rel="stylesheet" href="css/style-1000px"/>
 <div id="extra">
 			<div class="container">
 				<div class="row">
